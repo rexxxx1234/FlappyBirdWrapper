@@ -1,7 +1,7 @@
 import pygame
 import sys
 def load():
-    pygame.init()
+    pygame.mixer.init()
     
     # path of player with different states
     PLAYER_PATH = (
