@@ -1,6 +1,8 @@
 import pygame
 import sys
 def load():
+    pygame.init()
+    
     # path of player with different states
     PLAYER_PATH = (
             'assets/sprites/redbird-upflap.png',
